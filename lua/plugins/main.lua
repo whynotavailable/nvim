@@ -1,9 +1,10 @@
 return {
 	{
 		"catppuccin/nvim",
-		lazy = true,
 		name = "catppuccin",
+		priority = 1000,
 		opts = {
+			flavour = "macchiato",
 			integrations = {
 				aerial = true,
 				alpha = true,
